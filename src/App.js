@@ -2,11 +2,8 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { Header } from "./components/layout/Header";
 import { Content } from "./components/layout/Content";
-import {
-  ProjectsProvider,
-  SelectedProjectProvider,
-} from "../src/context/index";
-
+import { SelectedProjectProvider } from "./context";
+import { ProjectsProvider } from "./context/projects-contex";
 export const App = ({ darkModeDefault = false }) => {
   const [darkMode, setDarkMode] = useState(darkModeDefault);
 

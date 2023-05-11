@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { useProjectsValue } from "../context";
+import { useProjectsValue } from "../context/projects-contex";
 
 export const ProjectOverlay = ({
   setProject,
